@@ -1,0 +1,89 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d1a2d;
+}
+.container {
+    background-color: #15273f;
+    height: 34em;
+    border-radius: 15px;
+    width: 20em;
+}
+.container .cube-image {
+    height: 17.5em;
+    position: absolute;
+    margin-left: 1.3em;
+    margin-top: 1.3em;
+    border-radius: 15px;
+}
+.container .heading {
+    color: white;
+    font-size: 1.4rem;
+    position: absolute;
+    margin-left: 1.1em;
+    margin-top:14.4em ;
+}
+.container .para {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    position: absolute;
+    margin-left:1.5em ;
+    margin-top: 23em;
+}
+.container .bitcoin {
+    color: rgb(21, 191, 221);
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 2.5em;
+    margin-top: 26em;
+}
+.container .eth-logo {
+    position: absolute;
+    margin-left: 1.6em;
+    margin-top: 26em;
+}
+.container .clock-logo {
+    position: absolute;
+    margin-left: 14em;
+    margin-top: 0;
+    margin-left: 12.5em;
+    margin-top: 26.2em;
+}
+.container .days {
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    margin-left: 14em;
+    margin-top: 26.2em;
+}
+.container hr {
+position: absolute;
+margin-top: 29em;
+width: 17em;
+margin-left: 23px;
+color: rgba(255, 255, 255, 0.3);
+}
+.container .profile {
+    position: absolute;
+    margin-top: 30.2em;
+    margin-left: 1.5em;
+    height: 2.5em;
+    border: white 1px solid;
+    border-radius: 50%;
+}
+.container .credit {
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    margin-top:31em ;
+    margin-left:5em;
+}
+.container .credit span {
+    color: rgba(255, 255, 255, 0.9);
+}
